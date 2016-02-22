@@ -20,8 +20,12 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': '/home/meetbhagdev/mydatabase',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'myproject3',
+        'USER': 'myprojectuser',
+        'PASSWORD': 'password',
+        'HOST': '10.82.164.105',
+        'PORT': '5433',
     }
 }
 
