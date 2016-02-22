@@ -20,15 +20,9 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sqlserver_pymssql',
-        'HOST': 'servername.database.windows.net',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'mydatabase',
-        'USER': 'myusername@servername',
-        'PASSWORD': 'password',
-        'OPTIONS': {
-            # ...
-        },
-    },
+    }
 }
 
 LOGIN_URL = '/login'
