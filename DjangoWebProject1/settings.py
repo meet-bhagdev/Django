@@ -21,7 +21,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'testdb',
+        'NAME': 'meetstestdb',
         'USER': 'meetbhadev',
         'PASSWORD': 'channelV1',
         'HOST': 'meetstestserver.c9xoioithmxn.us-west-2.rds.amazonaws.com',
